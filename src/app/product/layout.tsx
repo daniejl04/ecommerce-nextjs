@@ -18,7 +18,6 @@ export default function Principal({
       <header>
         <Header />
       </header>
-
       <main>{children}</main>
       
       <footer>

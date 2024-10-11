@@ -38,7 +38,7 @@ interface ProductProperties {
   id: number;
   name: string;
   price: string;
-  image: string | StaticImageData[];
+  image: StaticImageData[];
   colors: string[];
   category: string;
   discount?: string;

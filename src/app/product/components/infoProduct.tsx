@@ -6,7 +6,7 @@ interface InfoProductProps {
   name: string;
   price: string;
   countdown?: string;
-  discount?: number
+  discount?: string
 };
 
 export default function InfoProduct({ name, price, discount, countdown }: InfoProductProps) {

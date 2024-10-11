@@ -1,7 +1,6 @@
 import { ChevronDownIcon } from "@heroicons/react/20/solid"
 import { MagnifyingGlassIcon, UserIcon } from "@heroicons/react/20/solid"
 import { HeartIcon, ShoppingBagIcon } from "@heroicons/react/24/outline"
-import logoCommerce from "@/assets/img/logoCompany/logoCommerce.png"
 import Image from 'next/image';
 import Link from "next/link"
 
@@ -25,7 +24,7 @@ function Header() {
                 </div>
                 <div>
                 <div className=" w-[120px] h-[40px]  flex justify-center items-center">
-              <Image src={logoCommerce} alt="" width={150} height={100} />
+              <Image src='https://res.cloudinary.com/df2qckxtp/image/upload/v1728582940/samples/cloudinary-logo-vector.svg' alt="" width={150} height={100} />
               </div>
                 </div>
                 <div>

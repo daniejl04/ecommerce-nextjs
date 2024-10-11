@@ -2,28 +2,20 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import image1 from "@/assets/img/products/product1.jpg"
-import image2 from "@/assets/img/products/product-2.jpg"
-import image3 from "@/assets/img/products/product3.jpg"
-import image4 from "@/assets/img/products/product4.jpg"
-import image5 from "@/assets/img/products/product5.jpg"
-import image6 from "@/assets/img/products/product6.jpg"
-import image7 from "@/assets/img/products/product7.jpg"
-
 
 const products = [
   {
     id: 1, 
     name: "Ribbed Tank Top", 
     price: "$16.95", 
-    image: image1, 
+    image: 'https://res.cloudinary.com/df2qckxtp/image/upload/v1728619109/product1_bdcseb.jpg', 
     colors: ["#000", "#FFF", "#F00"] 
   },
   {
     id: 2, 
     name: "Ribbed modal T-shirt", 
     price: "$18.95", 
-    image: image2, 
+    image: 'https://res.cloudinary.com/df2qckxtp/image/upload/v1728619109/product-2_wrtkhx.jpg', 
     discount: "33%", countdown: "1d 15h 51m 37s", 
     colors: ["#FFF", "#F0F", "#0F0"] 
   },
@@ -31,35 +23,35 @@ const products = [
     id: 3, 
     name: "Oversized Printed T-shirt", 
     price: "$10.00", 
-    image: image3, 
+    image: 'https://res.cloudinary.com/df2qckxtp/image/upload/v1728619109/product3_pop5ff.jpg', 
     colors: ["#FFF", "#000"] 
   },
   {
     id: 4, 
     name: "V-neck linen T-shirt", 
     price: "$14.95", 
-    image: image4, 
+    image: 'https://res.cloudinary.com/df2qckxtp/image/upload/v1728619109/product4_pm3sdm.jpg', 
     colors: ["#F0F", "#000", "#FFF"] 
   },
   {
     id: 5, 
     name: "Loose Fit Sweatshirt", 
     price: "$30.00", 
-    image: image5, 
+    image: 'https://res.cloudinary.com/df2qckxtp/image/upload/v1728619110/product6_taqakg.jpg', 
     colors: ["#00F", "#FFF", "#F00"] 
   },
   {
     id: 6, 
     name: "Loose Fit Hoodie", 
     price: "$9.95", 
-    image: image6, 
+    image: 'https://res.cloudinary.com/df2qckxtp/image/upload/v1728619110/product6_taqakg.jpg', 
     colors: ["#FFF", "#000"] 
   },
   {
     id: 7, 
     name: "Regular Fit Oxford Shirt", 
     price: "$30.00", 
-    image: image7, 
+    image: 'https://res.cloudinary.com/df2qckxtp/image/upload/v1728619110/product7_le0le1.jpg', 
     colors: ["#FFF", "#000"] 
   }
 ]
@@ -91,6 +83,8 @@ export default function FeactureProduct() {
           <div key={product.id} className="product-item p-4">
             <Image
               src={product.image}
+              width={300}
+              height={300}
               alt={product.name}
               className="max-w-full h-auto mb-4"
             />

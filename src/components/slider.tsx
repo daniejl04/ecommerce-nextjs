@@ -1,8 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client"
 
 import { useState } from 'react'
+import Image from 'next/image';
 
-export default function slider() {
+export default function Slider() {
 
         const slides = [
           {
@@ -31,8 +33,9 @@ export default function slider() {
         className="flex transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
       >
+  
         {slides.map((slide) => (
-          <img
+          <Image
             key={slide.id}
             src={slide.image}
             alt={slide.alt}

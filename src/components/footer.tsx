@@ -46,14 +46,14 @@ function Footer() {
                         <li className="mb-2">Returns + Exchage</li>
                         <li className="mb-2">Shipping</li>
                         <li className="mb-2">Terms & Conditions</li>
-                        <li className="mb-2">FAQ's</li>
+                        <li className="mb-2">FAQ&#39s</li>
                         <li className="mb-2">Compare</li>
                         <li className="mb-2">My Wishlist</li>
                     </ul>
                 </div>
                 <div>
                     <h3 className="my-5">About us</h3>
-                    <ul className="text-xs ">
+                    <ul className="text-xs">
                         <li className="mb-2">Our Story</li>
                         <li className="mb-2">Visit Our Store</li>
                         <li className="mb-2">Contact Us</li>

@@ -9,17 +9,17 @@ export default function Slider() {
         const slides = [
           {
             id: 1,
-            image: 'https://via.placeholder.com/800x400?text=Slide+1',
+            image: 'https://res.cloudinary.com/df2qckxtp/image/upload/v1728582943/samples/ecommerce/accessories-bag.jpg',
             alt: 'Slide 1',
           },
           {
             id: 2,
-            image: 'https://via.placeholder.com/800x400?text=Slide+2',
+            image: 'https://res.cloudinary.com/df2qckxtp/image/upload/v1728582942/samples/ecommerce/leather-bag-gray.jpg',
             alt: 'Slide 2',
           },
           {
             id: 3,
-            image: 'https://via.placeholder.com/800x400?text=Slide+3',
+            image: 'https://res.cloudinary.com/df2qckxtp/image/upload/v1728582942/samples/landscapes/beach-boat.jpg',
             alt: 'Slide 3',
           },
         ];
